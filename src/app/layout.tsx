@@ -16,6 +16,27 @@ export const metadata: Metadata = {
   title: "GR831 약술형논술 콘텐츠 공급 가맹 | GR831약술형논술연구소",
   description:
     "2026학년도 가천대 135명 합격 GR831의 콘텐츠 공급 가맹. 강사진은 있지만 콘텐츠 제작이 어려운 학원에 검증된 자료 그대로. 본사 직접 채점, 매주 성적표 자동 발송.",
+  keywords: [
+    "약술형논술",
+    "GR831",
+    "콘텐츠 공급",
+    "가맹",
+    "가천대 약술형논술",
+    "학원 가맹",
+    "약술형논술 콘텐츠",
+    "모의고사 콘텐츠",
+  ],
+  openGraph: {
+    title: "GR831 약술형논술 콘텐츠 공급 가맹",
+    description:
+      "2026학년도 가천대 135명 합격을 만든 GR831의 콘텐츠 공급. 회당 19,400원 · 가입비 없음 · 비과세.",
+    type: "website",
+    locale: "ko_KR",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

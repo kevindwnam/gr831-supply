@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import SectionHeader from "@/components/SectionHeader";
+
+export const metadata: Metadata = {
+  title: "운영 방식 | GR831 콘텐츠 공급 가맹",
+  description:
+    "전국 통일 회차 운영, 본사 직접 채점, 시험 다음 주 금요일 성적표 자동 발송. 가맹 학원은 QR 출석과 답안지 스캔 전송만 담당.",
+};
 
 export default function OperationPage() {
   return (

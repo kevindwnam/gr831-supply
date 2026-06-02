@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import SectionHeader from "@/components/SectionHeader";
+
+export const metadata: Metadata = {
+  title: "수익 구조 | GR831 콘텐츠 공급 가맹",
+  description:
+    "정규 모의고사 회당 19,400원 · 파이널 회당 30,000원. 비과세 사업으로 부가세 없음. 가입비/계약금 없이 시작.",
+};
 
 export default function RevenuePage() {
   return (

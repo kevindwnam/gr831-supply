@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import SectionHeader from "@/components/SectionHeader";
+
+export const metadata: Metadata = {
+  title: "공급 콘텐츠 | GR831 콘텐츠 공급 가맹",
+  description:
+    "47회 모의고사 + 5대 자료 + 매일국어 1컷 + 학습웹. 지류 3종(문제지·워크북·답안지) + 학습웹 5종(해설지·강의노트·모범답안·해설영상·개념영상). 출제 적중률 수학 90% / 국어 80%.",
+};
 
 export default function ContentPage() {
   return (

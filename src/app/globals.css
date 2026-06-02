@@ -13,8 +13,14 @@
   --font-serif-kr: var(--font-noto-serif-kr), "Noto Serif KR", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--color-brand-bg);
   color: var(--color-brand-black);
   word-break: keep-all;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

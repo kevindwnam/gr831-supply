@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import SectionHeader from "@/components/SectionHeader";
+
+export const metadata: Metadata = {
+  title: "GR831 소개 | GR831 콘텐츠 공급 가맹",
+  description:
+    "가천대 약술형논술 자문위원 출신 연구진. 3개년 누적 353명 합격. 약술형논술 단일 분야 6년차 전문 기관.",
+};
 
 export default function AboutPage() {
   return (

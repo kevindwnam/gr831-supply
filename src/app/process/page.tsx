@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import SectionHeader from "@/components/SectionHeader";
+
+export const metadata: Metadata = {
+  title: "진행 절차 | GR831 콘텐츠 공급 가맹",
+  description:
+    "카카오톡 상담부터 콘텐츠 공급 개시까지 6단계. 가입비/계약금 없음. 1~2주 안에 시작 가능.",
+};
 
 const steps = [
   {

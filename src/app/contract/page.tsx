@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import SectionHeader from "@/components/SectionHeader";
+
+export const metadata: Metadata = {
+  title: "계약 조건 | GR831 콘텐츠 공급 가맹",
+  description:
+    "계약 기간, 환불 규정, 위약 조항 및 계약서 전문 9개 조항. 신청 인원 미수강 시 인쇄비 명당 3,000원만 청구.",
+};
 
 export default function ContractPage() {
   return (
